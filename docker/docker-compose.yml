@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  api-postgresql:
+    image: postgres
+    restart: no
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123Mudar
+    ports:
+      - 5432:5432
+
